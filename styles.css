@@ -1,0 +1,68 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #F9F2ED;
+}
+
+.header-bar {
+  background-color: #F87474;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-bar h1 {
+  margin: 0;
+  color: #F9F2ED;
+}
+
+.main-content {
+  display: flex;
+  align-items: center;
+  padding-top: 64px;
+  flex-direction: column;
+}
+
+.game-grid {
+  display: grid;
+  border: 1px solid#F87474;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+}
+
+.grid-square {
+  border: 1px solid#F87474;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.x {
+  color: #3AB0FF;
+  font-weight: 600;
+  font-size: large
+}
+
+.o {
+  color: #FFB562;
+  font-weight: 600;
+  font-size: large
+}
+
+.shape {
+  font-size: 75px;
+}
+
+.footer {
+  color: #F87474;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
