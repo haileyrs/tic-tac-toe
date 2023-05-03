@@ -7,6 +7,19 @@ body {
   background-color: #F9F2ED;
 }
 
+button {
+  padding: 12px 24px;
+  background-color: #F87474;
+  color:#F9F2ED;
+  border: none;
+  border-radius: 10px;
+  font-size: large;
+}
+
+button:hover {
+  background-color: #dd6666;
+}
+
 .header-bar {
   background-color: #F87474;
   padding: 16px;
